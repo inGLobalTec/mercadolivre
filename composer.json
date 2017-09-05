@@ -1,0 +1,38 @@
+{
+  "name": "inglobaltec/mercadolivre",
+  "description": "api de integração com o mercadolivre",
+  "type": "library",
+  "license": "MIT",
+  "version":"1.0",
+  "authors": [
+    {
+      "name": "Andrew Vazzoler",
+      "email": "andrew_vazzoler@hotmail.com"
+    }
+  ],
+  "keywords": [
+    "API",
+    "Mercadolivre",
+    "Mercadolibre",
+    "Integração"
+  ],
+  "require": {
+    "php": ">=7.0",
+    "illuminate/support": "5.5.*"
+  },
+  "require-dev": {
+    "mockery/mockery": "0.9.*",
+    "phpunit/phpunit": "~6.0",
+    "laravel/framework": "5.5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Inglobaltec\\MercadoLivre\\": [
+        "src",
+        "test"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
